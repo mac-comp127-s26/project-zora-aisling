@@ -74,7 +74,6 @@ When the program runs:
 - The game ends if the snake hits a wall or obstacle
 - The player wins after reaching a score of 15
 
-Screenshots of gameplay windows can be included below.
 
 ### Example Screenshots
 
