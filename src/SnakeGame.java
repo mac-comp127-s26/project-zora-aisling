@@ -26,7 +26,7 @@ public class SnakeGame {
         snake = new Snake(canvas);
         food = new Food(canvas);
 
-        // UI
+        
         scoreText = new GraphicsText("Score: 0");
         scoreText.setPosition(10, 20);
         canvas.add(scoreText);
@@ -58,13 +58,12 @@ public class SnakeGame {
             if (gameOver) return;
 
             frameCount++;
-            obstacleTimer++; // ⭐ 每帧增加
+            obstacleTimer++; 
 
             if (frameCount % speed == 0) {
 
                 snake.move();
 
-                // 吃 food
                 if (snake.isColliding(food.getShape())) {
                     snake.grow();
                     food.spawn(canvas);

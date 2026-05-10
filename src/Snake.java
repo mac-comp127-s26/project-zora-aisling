@@ -40,7 +40,6 @@ public class Snake {
         body.add(newHead);
         canvas.add(newHead);
 
-        // remove tail
         Rectangle tail = body.remove(0);
         canvas.remove(tail);
     }
