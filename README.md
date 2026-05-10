@@ -85,13 +85,13 @@ When the program runs:
 
 ## Presentation Video
 
-(Add presentation video link here)
+[Presentation Video]()
 
 ---
 
 ## Presentation Slides
 
-(Add presentation slides link here)
+[Presentation Slides](https://www.canva.com/design/DAHIqkViEgs/mlbIswAzhE5g0oMPIn-dwg/edit)
 
 ---
 
